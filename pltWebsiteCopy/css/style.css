@@ -1,0 +1,758 @@
+#wholePage
+{
+    height: 1600px;
+    width: 1850px;
+    /* border: solid; */
+    /* background-color: blueviolet; */
+    position: absolute;
+    top: 0px
+}
+
+/* THE TOP PART OF THE PAGE */
+
+#header
+{
+    height: 150px;
+    width: 1850px;
+    /* border: dotted; */
+    /* background-color: #E9E7E9; */
+    background-color: white;
+}
+
+#title{
+    height: 35px;
+    width: 250px;
+    /* border: solid; */
+    position: centre;
+    top : 0px;
+    margin-left: 650px;
+    text-align: center;
+}
+
+#searchBar
+{
+    position: absolute;
+    top:5px;
+    margin-left: 10px;
+    height: 20px;
+    width : 250px;
+    border: solid;
+}
+#icons
+{
+    position: absolute;
+    top:5px;
+    margin-left: 1580px;
+    height: 20px;
+    width : 250px;
+    /* border: solid; */
+
+
+}
+
+/* #trail 
+{
+    border: #C211F7 solid;
+    height: 20px;
+    width: 20px;
+} */
+#account
+{
+    position: absolute;
+    top:0px;
+    margin-left: 120px;
+    height: 25px;
+    width: 25px;
+    /* border: solid fuchsia; */
+}
+#wishList
+{
+    position: absolute;
+    top:2px;
+    margin-left: 150px;
+    height: 25px;
+    width: 25px;
+    /* border: solid blue; */
+    
+}
+#bag
+{
+    position: absolute;
+    top:0px;
+    margin-left: 175px;
+    height: 25px;
+    width: 25px;
+    /* border: solid yellow; */
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+li{
+    display: inline;
+    font-size: 20px;
+    font-family: Verdana;
+    margin-left: 30px;
+    text-align: center;
+    /* top: 0px; */
+    /* border-style: groove; */
+}
+/* #navItem :hover
+{
+    color: gray;
+    font-weight: bold;
+    #headNav :hover{
+        color: #FEF601;
+} */
+#nav
+{
+    margin-left: 350px;
+    position: absolute;
+    top: 60px;
+    text-align: center;
+}
+
+#navIn
+{
+    padding: 16px;
+    cursor: pointer;
+}
+
+.dropdownNewItem
+{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: #F6C7F1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown-content a
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{background-color: #ddd}
+.dropdownNewItem :hover .dropdown-content
+{
+    display: block;
+}
+.dropdownNewItem:hover #navIn 
+{
+    background-color: #3e8e41
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#banner
+{
+    background-color: #F8AEFA;
+    position: absolute;
+    height: 50px;
+    width: 1850px;
+    /* border: solid; */
+    top : 99px;
+    text-align: center;
+    color: white;
+}
+/* THE MAIN CONTENT OF THE PAGE  */
+
+
+#body
+{
+    height: 1200px;
+    width: 1850px;
+    /* border: inherit; */
+    /* background-color: darkcyan; */
+}
+#special
+{
+    height: 50px;
+    width: 925px;
+    border: solid white;
+    position: absolute;
+    top: 150px;
+    text-align: center;
+    background-color: #E9E7E9;
+}
+#special2
+{
+    height: 50px;
+    width: 925px;
+    border: solid white;
+    position: absolute;
+    top: 150px;
+    margin-left: 925px;
+    text-align: center;
+    background-color: #E9E7E9;
+}
+#main
+{
+    height: 500px;
+    width: 1850px;
+    position: absolute;
+    top: 205px;
+    /* background-color: aquamarine; */
+    text-align: center;
+}
+
+#bannerMain
+{
+    position: absolute;
+    height: 50px;
+    width: 1850px;
+    top: 705px;
+    /* border:  solid fuchsia; */
+}
+#nextDayDelivery
+{
+    position: absolute;
+    height: 50px;
+    width: 615px;
+    border:  solid white;
+    text-align: center;
+    margin-left: 0px;
+    background-color: #E9E7E9;
+}
+#freeReturns
+{
+    position: absolute;
+    height: 50px;
+    width: 615px;
+    border:  solid white;
+    text-align: center;
+    margin-left: 615px;
+    background-color: #E9E7E9;
+}
+#insta
+{
+    position: absolute;
+    height: 50px;
+    width: 615px;
+    border:  solid white;
+    text-align: center;
+    margin-left: 1230px;
+    background-color: #E9E7E9;
+
+}
+
+#insta1
+{
+    position: absolute;
+    margin-left: -145px;
+    top:22px;
+
+}
+
+#offers
+{
+    position: absolute;
+    /* border: solid #3CDC14; */
+    top:760px;
+    width: 1850px;
+    height: 300px;
+    background-color: white;
+}
+
+#dresses
+{
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    border:  solid white;
+
+}
+
+#tops
+{
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    border:  solid white;
+    margin-left: 465px;
+}
+
+#shopNow
+{
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    border:  solid white;
+    margin-left: 930px;
+
+}
+#bottoms
+{
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    border:  solid white;
+    margin-left: 1395px;
+}
+
+#socialMedia
+{
+    position: absolute;
+    top:1060px;
+    width: 1847px;
+    border: solid white; 
+    height: 300px;
+    background-color: #F6C7F1;
+
+}
+#text
+{
+    top:1100px;
+    margin-left: 100px;
+    height:300px;
+    width: 500px;
+    /* border: solid fuchsia; */
+    text-align: center;
+
+}
+
+#instaLogo
+{
+    position: absolute;
+    top: 10px;
+    margin-left: 210px;
+    height: 50px;
+    width: 50px;
+    /* border: solid; */
+}
+
+
+#writng
+{
+    position: absolute;
+    top: 90px;
+    height: 300px;
+    width: 500px;
+}
+
+
+#image
+{
+    position: absolute;
+    top:0px;
+    margin-left: 700px;
+    height:280px;
+    width: 300px;
+    border: solid white;
+    text-align: center;
+
+}
+#image2
+{
+    position: absolute;
+    top:0px;
+    margin-left: 1120px;
+    height:280px;
+    width: 300px;
+    border: solid white;
+    text-align: center;
+
+}
+#image3
+{
+    position: absolute;
+    top:0px;
+    margin-left: 1530px;
+    height:280px;
+    width: 300px;
+    border: solid white;
+    text-align: center;
+
+}
+
+/* THE FINAL BIT OF THE PAGE(ABOUT US BIT) */
+
+
+#aboutUs
+{
+    position: absolute;
+    top: 1360px;
+    height :240px;
+    width: 1850px;
+    /* border: solid #B211F7; */
+
+}
+#iconBar
+{
+    position: absolute;
+    top: 0px;
+    border: solid white;
+    height:  40px;
+    width: 1847px;
+    background-color: black;
+    text-align: center;
+    /* margin-left: 3px; */
+}
+
+
+#whatsapp
+{
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    /* border: solid yellow; */
+    margin-left: 440px; 
+    top: 5px;
+}
+#instagramm
+{
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    /* border: solid yellow; */
+    margin-left: 510px; 
+    top: 5px;
+}#facebook
+{
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    /* border: solid yellow; */
+    margin-left: 580px; 
+    top: 5px;
+}
+#twitter
+{
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    /* border: solid yellow; */
+    margin-left: 650px; 
+    top: 5px;
+}
+#youtube
+{
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    /* border: solid yellow; */
+    margin-left: 720px; 
+    top: 5px;
+}
+#podcast
+{
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    /* border: solid yellow; */
+    margin-left: 790px;
+    top: 5px; 
+}
+#tiktok
+{
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    /* border: solid yellow; */
+    margin-left: 850px; 
+    top: 5px;
+}
+
+#whiteLine
+{
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    /* border: solid yellow; */
+    margin-left: 925px; 
+}
+#visa
+{
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    top: 0px;
+    /* border: solid yellow; */
+    margin-left: 1000px; 
+}
+#visaElectron
+{
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    /* border: solid yellow; */
+    margin-left: 1080px; 
+    top: 10px;
+}
+#masterCard
+{
+    position: absolute;
+    top: 0px;
+    height: 40px;
+    width: 50px;
+    /* border: solid yellow; */
+    margin-left: 1160px; 
+}
+#maestoCard
+{
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    /* border: solid yellow; */
+    margin-left: 1240px; 
+    top: 0px;
+}
+#payPal
+{
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    /* border: solid yellow; */
+    margin-left: 1320px; 
+    top: 0px;
+}
+
+
+
+#letUsHelp
+{
+    position: absolute;
+    top:42px;
+    /* border: solid #11E8F7; */
+    height: 200px;
+    width: 300px;
+    margin-left: 500px;
+    font-family: Verdana;
+    text-align: left;
+}
+#about
+{
+    position: absolute;
+    top:42px;
+    /* border: solid #1121F7; */
+    height: 200px;
+    width: 300px;
+    margin-left: 700px;
+    text-align: left;
+    font-family: Verdana;
+}
+#info
+{
+    position: absolute;
+    top:42px;
+    /* border: solid #1121F7; */
+    height: 200px;
+    width: 300px;
+    margin-left: 900px;
+    text-align: left;
+    font-family: Verdana;
+}
+#myAccount
+{
+    position: absolute;
+    top:42px;
+    /* border: solid #C211F7; */
+    height: 200px;
+    width: 300px;
+    margin-left: 1100px;
+    line-height: 1px;
+
+    font-family: Verdana;
+
+}
+
+
+
+
+h2
+{
+    font-size: 30px;
+    top:0px;
+    position: absolute;
+    font-family: Verdana;
+    letter-spacing: 0.001em;
+    font-stretch: ultra-condensed;
+    
+}
+h3
+{
+    font-family: Verdana;
+    color: white;
+}
+h5{
+    line-height: 1px;
+    font-family: Verdana;
+    text-align: left;
+    font-weight: 100;
+
+}
+
+
+/* BUTTONS!! */
+#dress  
+{
+    font-size: 15px;
+    font-family: Verdana;
+    position: absolute;
+    bottom: 10px;
+    margin-left: 150px;
+    
+}
+#top
+{
+    font-size: 15px;
+    font-family: Verdana;
+    position: absolute;
+    bottom: 10px;
+    margin-left: 150px;
+}
+#shop
+{
+    font-size: 15px;
+    font-family: Verdana;
+    position: absolute;
+    bottom: 10px;
+    margin-left: 150px;
+}
+#bottom
+{
+    font-size: 15px;
+    font-family: Verdana;
+    position: absolute;
+    bottom: 10px;
+    margin-left: 150px;
+}
+#shopInstagram
+{
+    font-size: 15px;
+    font-family: Verdana;
+    position: absolute;
+    top:150px;
+    /* bottom: 10px; */
+    margin-left: -200px;
+    height: 35px;
+    background-color: whitesmoke
+}
+#FollowUs
+{
+    font-size: 15px;
+    font-family: Verdana;
+    position: absolute;
+    top: 150px;
+    /* bottom: 0px; */
+    margin-left: 50px;
+    height: 35px;
+    background-color: whitesmoke
+}
+
+
+
+/* IMAGES!!! */
+
+
+
+#accountImage
+{
+    position: absolute;
+    top:0px;
+    height: 25px;
+    width: 25px;
+}
+#wishListImage
+{
+    position: absolute;
+    top:0px;
+    height: 25px;
+    width: 25px;
+}
+#bagImage
+{
+    position: absolute;
+    top:0px;
+    height: 28px;
+    width: 28px;
+}
+
+
+#mainImage
+{
+    height: 500px;
+    width: 1850px;
+}
+#dressImage
+{
+    width: 450px;
+    height: 450px;
+}
+#topImage
+{
+    width: 450px;
+    height: 450px;;
+}
+#shopImage
+{
+    width: 450px;
+    height: 450px;;
+}
+#bottomImage
+{
+    width: 450px;
+    height: 450px;;
+}
+#socialMediaImage
+{
+    width: 300px;
+    height: 290px;
+}
+#socialMediaImage2
+{
+    width: 300px;
+    height: 290px;
+}
+#socialMediaImage3
+{
+    width: 300px;
+    height: 290px;
+}
+
+/* #instaIcon
+{
+    position: absolute;
+    top: 10px;
+    height: 1000px;
+    width: 1000px;
+} */
+#insta1
+{
+
+}
